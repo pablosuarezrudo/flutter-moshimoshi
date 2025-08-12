@@ -25,6 +25,7 @@ class PasswordAuthenticationCard implements AuthenticatorCardInterface {
     required this.loginEndpoint,
     required this.refreshEndpoint,
     required this.navigatorKey,
+    required this.loginPage,
   });
 
   @override
