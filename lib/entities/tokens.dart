@@ -7,8 +7,6 @@ class Tokens {
 
   Tokens({required this.accessToken, required this.refreshToken}) {
     accessToken = accessToken;
-    HybridLoggerWrapper().logger.info("AccessToken: $accessToken");
     refreshToken = refreshToken;
-    HybridLoggerWrapper().logger.info("RefreshToken: $refreshToken");
   }
 }
