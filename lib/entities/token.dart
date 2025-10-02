@@ -11,8 +11,6 @@ class Token {
 
   Token(this.value, this.expiresIn, int expirationTimeValue) {
     calculateExpirationTime(expirationTimeValue);
-    HybridLoggerWrapper().logger.info(
-        "Creating Token instance with value: $value, expiresIn: $expiresIn, expirationTimeValue: $expirationTimeValue, Token is valid: $isValid");
   }
 
   void calculateExpirationTime(int expirationTimeValue) {
