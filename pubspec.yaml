@@ -16,7 +16,6 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_bloc: ">=9.1.0 <10.0.0"
-  hybrid_logger: ">=1.0.5 <2.0.0"
   shared_preferences: ">=2.5.3 <3.0.0"
 
 dev_dependencies:
